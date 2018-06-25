@@ -53,7 +53,7 @@ var options = {
 					options: {
 						skipIntroByDefault: true,
 						nestedTransitions: true,
-						emitCss: true,
+						emitCss: false,
 						hotReload: true
 					}
 				}
