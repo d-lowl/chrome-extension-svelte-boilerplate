@@ -51,8 +51,6 @@ var options = {
 				use: {
 					loader: 'svelte-loader',
 					options: {
-						skipIntroByDefault: true,
-						nestedTransitions: true,
 						emitCss: false,
 						hotReload: true
 					}
