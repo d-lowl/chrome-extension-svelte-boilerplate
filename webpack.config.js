@@ -52,7 +52,7 @@ var options = {
 					loader: 'svelte-loader',
 					options: {
 						emitCss: false,
-						hotReload: true
+						hotReload: false
 					}
 				}
       }
