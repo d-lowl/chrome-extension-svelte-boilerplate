@@ -1,6 +1,6 @@
 # A Chrome extension for eco-conscious shopping
 
-Built using the svelte chrome extension [boilerplate](https://github.com/d-lowl/chrome-extension-svelte-boilerplate). Data stored in an airtable (for now). Plans to integrate this plugin with the larger [open climate lab ecosystem](https://github.com/YaleOpenLab/Collabathon_2019). Initially developed during the first Yale OpenClimate Lab Collabathon. 
+Built using the svelte chrome extension [boilerplate](https://github.com/d-lowl/chrome-extension-svelte-boilerplate). Data stored in an [airtable](https://airtable.com/invite/l?inviteId=invIyZVcyifUauhPX&inviteToken=1cd27e37721480eec5017a7179c044a61581384240d82720f17cf5cd02fa5542) (for now). Plans to integrate this plugin with the larger [open climate lab ecosystem](https://github.com/YaleOpenLab/Collabathon_2019). Initially developed during the first Yale OpenClimate Lab [Collabathon](https://www.collabathon.openclimate.earth/). 
 It draws inspiration from the [Honey](https://www.joinhoney.com/) amazon shopping extension. The refined github extension [source](https://github.com/sindresorhus/refined-github)
 
 ## Developing on the extension
