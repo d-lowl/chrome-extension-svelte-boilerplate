@@ -6,7 +6,14 @@ It draws inspiration from the [Honey](https://www.joinhoney.com/) amazon shoppin
 ## Developing on the extension
 Get up to speed with the slick frontend framework with [Svelte docs](https://svelte.technology/guide),  and the [Chrome Extension](https://developer.chrome.com/extensions/getstarted) reference will be useful. 
 
-## Initialization
+## Contributing
+A great way to get started is to check for good first issues on the tracker. Overall we try to plan and execute using the Kanban boards in github [projects](https://github.com/starling-foundries/rhizomatic/projects).
+We use gitflow and welcome pull requests from new collaborators of all backgrounds and affiliations.
+
+
+
+## Getting started 
+
 1. Check if your Node.js version is >= 6.
 2. Clone the repository.
 3. Install [yarn](https://yarnpkg.com/lang/en/docs/install/).
