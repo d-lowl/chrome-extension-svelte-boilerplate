@@ -4,9 +4,17 @@
   "description": "A boilerplate to chrome extension with svelte and webpack",
   "scripts": {
     "build": "node utils/build.js",
-    "start": "node utils/webserver.js"
+    "start": "node utils/webserver.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-links": "^5.2.6",
+    "@storybook/addons": "^5.2.6",
+    "@storybook/svelte": "^5.2.6",
+    "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^1.0.0",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "2.1.0",
@@ -15,10 +23,11 @@
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
     "style-loader": "^0.23.1",
-    "svelte": "^3.5.1",
-    "svelte-loader": "^2.13.4",
+    "svelte": "^3.15.0",
+    "svelte-loader": "^2.13.6",
     "webpack": "4.33.0",
     "webpack-dev-server": "3.7.1",
     "write-file-webpack-plugin": "4.5.0"
-  }
+  },
+  "dependencies": {}
 }

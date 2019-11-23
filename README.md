@@ -1,11 +1,12 @@
-# Chrome Extension Svelte Boilerplate
+# A Chrome extension for eco-conscious shopping
 
-A basic foundation boilerplate for rich Chrome Extensions using [Svelte](https://svelte.technology/) and [Webpack](https://webpack.github.io/) to help you write modular and modern Javascript code, load CSS easily and [automatic reload the browser on code changes](https://webpack.github.io/docs/webpack-dev-server.html#automatic-refresh).
+Built using the svelte chrome extension [boilerplate](https://github.com/d-lowl/chrome-extension-svelte-boilerplate). Data stored in an airtable (for now). Plans to integrate this plugin with the larger [open climate lab ecosystem](https://github.com/YaleOpenLab/Collabathon_2019). Initially developed during the first Yale OpenClimate Lab Collabathon. 
+It draws inspiration from the [Honey](https://www.joinhoney.com/) amazon shopping extension. The refined github extension [source](https://github.com/sindresorhus/refined-github)
 
-## Developing a new extension
-_I'll assume that you already read the [Svelte docs](https://svelte.technology/guide), the [Webpack docs](https://webpack.github.io/docs) and the [Chrome Extension](https://developer.chrome.com/extensions/getstarted) docs._
+## Developing on the extension
+Get up to speed with the slick frontend framework with [Svelte docs](https://svelte.technology/guide),  and the [Chrome Extension](https://developer.chrome.com/extensions/getstarted) reference will be useful. 
 
-
+## Initialization
 1. Check if your Node.js version is >= 6.
 2. Clone the repository.
 3. Install [yarn](https://yarnpkg.com/lang/en/docs/install/).
@@ -27,7 +28,7 @@ The boilerplate is already prepared to have a popup, a options page and a backgr
 
 Each page has its own assets package defined. So, to code on popup you must start your code on `src/js/popup.js`, for example.
 
-Svelte components are under `src/svelte/*.svelte`. The example popup component is provided at `src/svelte/popup.svelte`. .svelte extension is used to distiguish components from static html files, required for an extension.
+Svelte components are under `src/svelte/*.svelte`. The example popup component is provided at `src/svelte/popup.svelte`. .svelte extension is used to distinguish components from static html files, required for an extension.
 
 ## Webpack auto-reload and HRM
 To make your workflow much more efficient this boilerplate uses the [webpack server](https://webpack.github.io/docs/webpack-dev-server.html) to development (started with `npm start`) with auto reload feature that reloads the browser automatically every time that you save some file o your editor.
