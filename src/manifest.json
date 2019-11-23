@@ -1,5 +1,5 @@
 {
-  "name": "Chrome Extension Svelte",
+  "name": "Eco-Widgy",
   "options_page": "options.html",
   "background": {
     "page": "background.html"
